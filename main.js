@@ -17,7 +17,7 @@ function slide(mod) {
         }
     }
 
-    img.setAttribute('src', `/assets/${now}.jpg`)
+    img.setAttribute('src', `./assets/${now}.jpg`)
     if (now <= 0) {
         now = 11
     } else if (now >= 11) {
